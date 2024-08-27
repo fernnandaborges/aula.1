@@ -1,0 +1,68 @@
+body {
+    width: 1000px;
+    margin: 0 auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#topo img{
+    width: 100px; 
+    float: left;
+
+}
+
+#menu {
+    float: right;
+    margin-top: 30px;
+}
+ 
+#menu ul {
+    list-style: none;
+    font-weight: bold; /*negrito*/
+}
+
+#menu li {
+    display: inline;
+}
+
+#menu a{
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+}
+
+#menu a :hover { /*cursor do mouse sonre o link*/
+    /* color: orange; */
+    border-bottom: 4px solid orange;
+}
+
+
+#principal img {
+    width: 1000px;
+}
+
+#segundaria h2 {
+    color: orange;
+}
+
+#segundaria p{
+    text-align: justify;
+    color:  #808080;
+}
+.coluna{
+    width: 320px;
+    float: left;
+    margin-right: 5px
+
+}
+
+#rodape {
+    clear: both;
+    background-color: rgb(225,126,0,0.7);
+    text-align: center;
+    color: #ffffff;
+    padding: 5px 0 10px 05;
+}
+
+#rodape img {
+    width: 30px;
+}

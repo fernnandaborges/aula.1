@@ -1,0 +1,167 @@
+.cycle-galeria {
+    position: relative;
+}
+.cycle-galeria, .cycle-galeria .cycle-slideshow, .cycle-galeria .cycle-slideshow li, .cycle-galeria .cycle-slideshow li a, .cycle-galeria .cycle-slideshow li img {
+    width: 100%;
+}
+.cycle-galeria .cycle-nav {
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+    right: 0;
+    z-index: 2;
+    text-align: center;
+}
+.cycle-galeria .cycle-nav span {
+    display: inline-block;
+    overflow: hidden;
+    text-indent: -1000px;
+    text-align: left;
+    width: 17px;
+    height: 17px;
+    border: 3px solid #F7941D;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 0.25s ease 0s;
+}
+.cycle-galeria .cycle-nav span + span {
+    margin-left: 10px;
+}
+.cycle-galeria .cycle-nav span:hover {
+    border-color: #FFF;
+}
+.cycle-galeria .cycle-nav span.cycle-pager-active {
+    background: #FFF;
+    border-color: #FFF;
+}
+
+.galeria-imagens {
+    text-align: center;
+}
+.galeria-imagens .link {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.galeria-imagens .imagem {
+    display: inline-block;
+    max-height: 85px;
+    min-height: 85px;
+}
+
+/* Checkbox Hack */
+#toggle-1 {
+    display:none;
+}
+
+label {
+    -webkit-appearance: push-button;
+    -moz-appearance: button;
+    display: inline-block;
+    cursor: pointer;
+    padding: 5px;
+}
+
+/* CSS padrão da div */
+#mostra {
+    display:block;
+}
+
+/* CSS quando o checkbox está marcado */
+#toggle-1:checked ~ #mostra {
+    display:none;
+}
+
+
+/* Hide the second piece of text by default */
+p.hovertext .second {
+    display:none;
+}
+
+/* Hide the first piece of text on hover */
+p.hovertext:hover .first {
+    display:none;
+}
+
+/* Re-show the second piece of text on hover */
+
+p.hovertext:hover .second {
+    display:inline;
+}
+
+
+@media (min-width: 320px) {
+    .divisor{ display:none; }
+    .botaoweb{background-color: #ffc42d; width: 300px; padding: 1em; text-align: center; text-height: bolder; margin-top: 1em; -webkit-border-radius: 80px;
+              -moz-border-radius: 80px; border-radius: 80px; font-weight: 800;}
+    .videoweb{width: 300px; height: 170px; }
+    .topoGeral{background-image:url(../images/capas/bgcompsenac.jpg); background-repeat: no-repeat; background-size:100%; height: auto; padding: 3em 2em 5em 2em; background-size: cover;}
+
+.bannerEvento{
+    width: 100%; height: auto; padding: 0.5em;  background-size: 100% 100%; background-image:url(../images/capas/bannercompsenac.jpg); background-size: cover; position: absolute; margin: 0em 0 2em -0.2em; z-index: 2; font-weight: 800;
+}
+.bannerEvento{ color:#FFF; font-size: 1em; }
+}
+.portfolio-lista1{display: none;}
+.portfolio-lista2{display: block }
+
+@media (min-width: 400px) {
+    .divisor{ display:none; }
+    .botaoweb{background-color: #ffc42d; width: 350px; padding: 1em; text-align: center; text-height: bolder; margin-top: 1em; -webkit-border-radius: 80px;
+              -moz-border-radius: 80px; border-radius: 80px; font-weight: 800;}
+    .videoweb{width: 350px; height: 250px; }
+    .topoGeral{background-image:url(../images/capas/bgcompsenac.jpg); background-repeat: no-repeat; background-size:100%; height: auto; padding: 3em 2em 5em 2em; background-size: cover;}
+}
+
+
+@media (min-width: 480px) {
+    .divisor{ display:none; }
+    .botaoweb{background-color: #ffc42d; width: 400px; padding: 1em; text-align: center; text-height: bolder; margin-top: 1em; -webkit-border-radius: 80px;
+              -moz-border-radius: 80px; border-radius: 80px; font-weight: 800;}
+    .videoweb{width: 400px; height: 300px; }
+    .topoGeral{background-image:url(../images/capas/bgcompsenac.jpg); background-repeat: no-repeat; background-size:100%; height: auto; padding: 3em 2em 5em 2em; background-size: cover;}
+}
+
+@media (min-width: 600px) {
+    .divisor{ display:none; }
+    .botaoweb{background-color: #ffc42d; width: 550px; padding: 1em; text-align: center; text-height: bolder; margin-top: 1em; -webkit-border-radius: 80px;
+              -moz-border-radius: 80px; border-radius: 80px; font-weight: 800;}
+    .videoweb{width: 550px; height: 400px; }
+    .topoGeral{background-image:url(../images/capas/bgcompsenac.jpg); background-repeat: no-repeat; background-size:100%; height: auto; padding: 3em 2em 6em 2em; background-size: cover;}
+}
+
+
+@media (min-width: 768px) {
+    .divisor{ display:none; }
+    .botaoweb{background-color: #ffc42d; width: 700px; padding: 1em; text-align: center; text-height: bolder; margin-top: 1em; -webkit-border-radius: 80px;
+              -moz-border-radius: 80px; border-radius: 80px; font-weight: 800;}
+    .videoweb{width: 700px; height: 400px; }
+    .topoGeral{background-image:url(../images/capas/bgcompsenac.jpg); background-repeat: no-repeat; background-size:100%; height: auto; padding: 3em 2em 10em 2em; background-size: cover;}
+
+    .portfolio-lista1{display: block }
+    .portfolio-lista2{display: none;}
+}
+
+@media (min-width: 992px) {
+    .divisor{ display:none; }
+    .botaoweb{background-color: #ffc42d; width: 900px; padding: 1em; text-align: center; text-height: bolder; margin-top: 1em; -webkit-border-radius: 80px;
+              -moz-border-radius: 80px; border-radius: 80px; font-weight: 800;}
+    .videoweb{width: 900px; height: 550px; }
+    .topoGeral{background-image:url(../images/capas/bgcompsenac.jpg); background-repeat: no-repeat; background-size:100%; height: auto; padding: 3em 2em 10em 2em; background-size: cover;}
+}
+
+@media (min-width: 1280px) {
+    .divisor{ display: flex; }
+    .botaoweb{background-color: #ffc42d; width: 800px; padding: 1em; text-align: center; text-height: bolder; margin-top: 1em; -webkit-border-radius: 80px;
+              -moz-border-radius: 80px; border-radius: 80px; font-weight: 800;}
+    .videoweb{width: 800px; height: 500px; }
+    .topoGeral{background-image:url(../images/capas/bgcompsenac.png); background-repeat: no-repeat; background-size:100%; height: auto; padding: 3em 2em 10em 2em; background-size: cover;}
+
+    .bannerEvento{
+        width: 100%; height: auto; padding: 0.5em;  background-size: 100% 100%; background-image:url(../images/capas/bannercompsenac.jpg); background-size: cover; position: absolute; margin: 0 0 2em -0.2em; z-index: 2; font-weight: 800;
+    }
+    .bannerEvento{ color:#FFF; font-size: 2em; }
+}

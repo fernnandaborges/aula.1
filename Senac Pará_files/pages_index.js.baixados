@@ -1,0 +1,8 @@
+$("document").ready(function () {
+    $('.cssmenu a[href="' + location.pathname.split("/")[location.pathname.split("/").length - 1] + '"]').parent().addClass('active');
+	$(function () {
+		$('.cssmenu a[href="' + location.pathname.split("/")[location.pathname.split("/").length - 1] + '"]').parent().addClass('active');
+	});
+
+        $('.page-header ').hide();
+});
